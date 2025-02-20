@@ -10,7 +10,7 @@ public:
             int answer = 0;
             while(start<=end){
                 int mid = start + (end-start)/2;
-                if((num * potions[mid]) >= success){
+                if((num *1ll* potions[mid]) >= success){
                     answer = mid;
                     end = mid-1;
                 }else{
